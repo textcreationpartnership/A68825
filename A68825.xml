@@ -1,0 +1,824 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Torent of Portyngale]</title>
+            <title>Torrent of Portyngale.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1505</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 11 KB of XML-encoded text transcribed from 7 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A68825</idno>
+            <idno type="STC">STC 24133</idno>
+            <idno type="STC">ESTC S1155</idno>
+            <idno type="EEBO-CITATION">21473154</idno>
+            <idno type="OCLC">ocm 21473154</idno>
+            <idno type="VID">24036</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A68825)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 24036)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1737:12)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>[Torent of Portyngale]</title>
+                  <title>Torrent of Portyngale.</title>
+               </titleStmt>
+               <extent>[4] + p.   </extent>
+               <publicationStmt>
+                  <publisher>R. Pynson,</publisher>
+                  <pubPlace>[S.l. :</pubPlace>
+                  <date>1505?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Metrical romance.</note>
+                  <note>T.p. lacking; title and imprint suggested by STC (2nd ed.).</note>
+                  <note>Imperfect: fragment.</note>
+                  <note>Bound and filmed with STC (2nd ed.) 24133.5 following.</note>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-02</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2010-02</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="modern_commentary">
+            <pb facs="tcp:24036:1" rendition="simple:additions"/>
+            <!-- PDF PAGE 120 -->
+            <p>
+               <add>Dr. Farmer has wrongly conjectured about Tiraute the white.  This is a fragment of the romance of "Torrente of Portugal".</add>
+            </p>
+            <p>
+               <add>The Doctor is probably right in what he ſays concerning the elegy on Henry the ſeventh, which is a ſingular curioſity.</add>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="fragments_of_Torrent_of_Portugal">
+            <pb facs="tcp:24036:2"/>
+            <!-- PDF PAGE 121 -->
+            <div type="part">
+               <l>For why I wyll the ſaye</l>
+               <l>Moche folke of that countre</l>
+               <l>Cometh heder for ſocoure to me</l>
+               <l>Bothe by nyghte and by daye</l>
+               <l>There is a gyaunte of grete reno wne</l>
+               <l>He deſtroyeth bothe cyte and towne</l>
+               <l>And all that he may</l>
+               <l>As bokes of rome tell</l>
+               <l>He was goten with the deuyll of hell</l>
+               <l>As his moder ſlepynge lay</l>
+               <l>The kynge ſayde by ſaynt Adryan</l>
+               <l>I rede a nother gentylman</l>
+               <l>Be there and haue the degre</l>
+               <l>I haue a doughter that me is dere</l>
+               <l>Thou ſhalte wedde her to thy fere</l>
+               <l>And yf it thy wyll be</l>
+               <l>Two duchyes in honde</l>
+               <l>I wyll gyue her in londe</l>
+               <l>Cramercy ſyr ſayd he</l>
+               <l>With my tonge I haue ſo wrought</l>
+               <l>To breke my day wyll I nought</l>
+               <l>Nedes me behoueth there to be</l>
+               <l>On goddes name the kynge gan ſayne</l>
+               <l>Iheſu brynge the ſaffe a gayne</l>
+               <l>Lorde moche of myght</l>
+               <l>Mynſtralſy was them a monge</l>
+               <l>With harpe fedyll and ſonge</l>
+               <l>Delycyous notes on hyghe</l>
+               <l>Whan it was tyme to bed they wente</l>
+               <l>And on the morowe roſe Torente.</l>
+               <l>And toke leue of kynge and knyght</l>
+               <l>And toke a redy way</l>
+               <l>
+                  <pb facs="tcp:24036:2"/>
+                  <!-- PDF PAGE 121 -->
+And the good ſquyres after h<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </l>
+               <l>That knyghtes ſholde be</l>
+               <l>As they were a myddes theyr <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </l>
+               <l>The kynge wolde not forgete</l>
+               <l>To torente than ſayd he</l>
+               <l>He ſayd ſo god me ſaue</l>
+               <l>Fayne thou woldeſt my doug<gap reason="illegible" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </l>
+               <l>Thou haſt loued her many a d<gap reason="illegible" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>
+               </l>
+               <l>ye by my trouthe ſayd torente</l>
+               <l>And I were a ryche man</l>
+               <l>Ryght gladly by my faye</l>
+               <l>If thou durſt for her ſake</l>
+               <l>Apoynte of armes vndertake</l>
+               <l>Thou broke her vp foray</l>
+               <l>ye ſayde he or I go</l>
+               <l>Sykernes thou make me ſo</l>
+               <l>Of thy doughter hende</l>
+               <l>Ye and after all my ryghtes</l>
+               <l>By .vii: ſcore of hardy knyghtes</l>
+               <l>Al they were Torentes frende</l>
+               <l>Now good lordes I you praye</l>
+               <l>Bere wytnes of this day</l>
+               <l>Agayne yf god me ſende</l>
+               <l>Torente ſayd ſo may I the</l>
+               <l>Wyſt I where my Iorney ſhol<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </l>
+               <l>Thyder I wolde me dyghte</l>
+               <l>The kynge gaue hym an anſw<gap reason="illegible" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>
+               </l>
+               <l>In the londe of calebre</l>
+               <l>There wonneth a gyaunte wyg<gap reason="illegible" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>
+               </l>
+               <l>Slogus he hyght as I the tolde</l>
+               <l>God ſende the that waye ryghte</l>
+            </div>
+            <div type="part">
+               <pb facs="tcp:24036:4" rendition="simple:additions"/>
+               <!-- PDF PAGE 123 -->
+               <p>
+                  <add>I do not find this Romance of Torente mention'd anywhere <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </add>
+               </p>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>all the wrynge</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>lynge</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> thou the</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> he toke</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> bare a croke</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>te longe and thre</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> euer ſo longe were</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> had no fere</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>d darſte thou come nere</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>nte no lengre a byde</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>nte wolde he ryde</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>ghte</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>one eye but one</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> neuer none</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> nor by nyght</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>pe of god of heuen</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>etin euen</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>gan to rore</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> the cyte w<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>re</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>ay</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>s <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>yen were oute</l>
+               <l>
+                  <gap reason="illegible" extent="1+ lines">
+                     <desc>〈1… lines〉</desc>
+                  </gap>
+               </l>
+               <l>
+                  <pb facs="tcp:24036:4" rendition="simple:additions"/>
+                  <!-- PDF PAGE 123 -->
+By the ſe ſyde as it lay</l>
+               <l>God ſende hym gatys ryght</l>
+               <l>An hye waye hath he nome</l>
+               <l>Into calabre is he come</l>
+               <l>Within two dayes or thre</l>
+               <l>So he met folke hym agayne</l>
+               <l>Faſt comynge with carte and wayne</l>
+               <l>Frowarde the ſe</l>
+               <l>Dere god ſayd torente now</l>
+               <l>Good folke what eyleth you</l>
+               <l>That ye thus faſt fle</l>
+               <l>There lyeth a gyaunte here beſyde</l>
+               <l>In all this londe brode and wyde</l>
+               <l>No man on lyue leueth he</l>
+               <l>Dere god ſayd torente then</l>
+               <l>Wher euer be that fendes den</l>
+               <l>They anſwered hym anone</l>
+               <l>In a caſtell in the ſee</l>
+               <l>Slogus they ſayd hyght he</l>
+               <l>Many a man he hath ſlone</l>
+               <l>We wote full well where he doth ly</l>
+               <l>Byfore the cyte of hungry</l>
+            </div>
+            <div type="part">
+               <pb facs="tcp:24036:5" rendition="simple:additions"/>
+               <!-- PDF PAGE 124 -->
+               <l>
+                  <seg rend="decorInit">T</seg>Hus the lady dwelled there</l>
+               <l>Tyll that ſhe delyuered were</l>
+               <l>Of men chyldren two</l>
+               <l>Of all poyntes were they gent</l>
+               <l>Lyke were they to ſir torent</l>
+               <l>For his loue ſuffred they wo</l>
+               <l>The kynge ſayd ſo mote I the</l>
+               <l>Thou ſhalt into theſe</l>
+               <l>Without wordes mo</l>
+               <l>Euery kynges doughter fet and nere</l>
+               <l>At the they ſhall lere</l>
+               <l>Agaynſt right to do</l>
+               <l>Great ruthe it was toſe</l>
+               <l>Whan they led that lady fre</l>
+               <l>Out of hir faders lande</l>
+               <l>The quene his moder was ne<g ref="char:cmbAbbrStroke">̄</g>re wode</l>
+               <l>For hir doughter that gentyll fode</l>
+               <l>Knyghtes ſtode wepynge</l>
+               <l>A clothe of ſylke toke they tho</l>
+               <l>And departed it byt wene the chyldren two</l>
+               <l>Therin they were wonde</l>
+               <l>Whan they had ſhypped that gentyll thynge</l>
+               <l>Anone the ſell in ſwownynge</l>
+               <l>At peron on the ſonde</l>
+               <l>Whan that lady was downe fall</l>
+               <l>Ou teſu cryſte dyd ſhe call</l>
+               <l>To defende hir with his honde</l>
+               <l>Rightfull god ye meſende</l>
+               <l>Some good londe on to lende</l>
+               <l>That my chyldren may cryſtened be</l>
+               <l>
+                  <pb facs="tcp:24036:6"/>
+                  <!-- PDF PAGE 125 -->
+She ſayd ladyes ſayre and gent</l>
+               <l>Great well my lorde ſir torent</l>
+               <l>yf euer ye hym ſe</l>
+               <l>The wynde aroſe on the nyght</l>
+               <l>Fro the londe it blewe that lady bryght</l>
+               <l>Into theſe ſo grene</l>
+               <l>wyndes and weders hathe hir dryuen</l>
+               <l>That in a foreſt ſhe is aryuen</l>
+               <l>where wylde beſtys were</l>
+               <l>Theſe was ebbe and went hem fro</l>
+               <l>And left hir and hir chyldren two</l>
+               <l>
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>ne without any fere</l>
+               <l>Hir one chylde began to wepe</l>
+               <l>The lady awoke out of hir ſlepe</l>
+               <l>And ſayde be ſtyll my dere</l>
+               <l>Iheſu cryſte hathe ſent vs lande</l>
+               <l>yf there be any cryſten man at hande</l>
+               <l>we ſhall haue ſocoure here</l>
+               <l>The carefull lady then was blythe</l>
+               <l>To the londe ſhe went full ſwythe</l>
+               <l>As faſt as ſhe myght</l>
+               <l>Tyll the day began to ſpryge</l>
+               <l>Foules on trees merely ganſynge</l>
+               <l>Delicyous notes on hyght</l>
+               <l>To a hyll went that lady fre</l>
+               <l>where ſhe was ware of acyte</l>
+               <l>with toures fayre and bryght</l>
+               <l>Therof Iwys ſhe was fayne</l>
+               <l>She ſet hir downe as I herd ſayne</l>
+               <l>Hir chyldren for to dyght</l>
+               <l>
+                  <pb facs="tcp:24036:6"/>
+                  <!-- PDF PAGE 125 -->
+than ſayde, <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> kyn<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> vntrue</l>
+               <l>and ye fynde hawes of great value</l>
+               <l>Brynge me one with the</l>
+               <l>Torent ſayd ſo god me ſaue</l>
+               <l>yf it betyde that I any haue</l>
+               <l>at your wyll ſhall they be</l>
+               <l>To his ſquyer bade he thare</l>
+               <l>after his armoure to fare</l>
+               <l>In the felde abode he</l>
+               <l>they armed hym in his wede</l>
+               <l>He beſtrode a noble ſtede</l>
+               <l>Torent toke the way agayne</l>
+               <l>Vnto the foreſt of Maudelayne</l>
+               <l>In a wylſome way</l>
+               <l>Berys and apes there founde he</l>
+               <l>and wylde beſtys great plente</l>
+               <l>and lyons where they lay</l>
+               <l>In a wode that is tyght</l>
+               <l>It drewe towarde the nyght</l>
+               <l>By dymmynge of the day</l>
+               <l>Lyſten lordes of them came wo</l>
+               <l>He and his ſquyer departed in two</l>
+               <l>Carefull men then were they</l>
+               <l>at a ſhedynge of a rome</l>
+               <l>Eyther departed other frome</l>
+               <l>as I vnderſtande</l>
+               <l>Torent taketh a dolefull way</l>
+               <l>Downe into a depe valay</l>
+               <l>
+                  <pb facs="tcp:24036:7" rendition="simple:additions"/>
+                  <!-- PDF PAGE 126 -->
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> hym <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>e for to fle</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>y wyll he gone</l>
+               <l>
+                  <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>e kynge of nazareth ſent hym me</l>
+               <l>Torent I wotſaue hym on the</l>
+               <l>For better loue I none</l>
+               <l>afterwarde vpon a tyde</l>
+               <l>as they walked by the ryuers ſyde</l>
+               <l>the kynge and yonge Torent</l>
+               <l>this lorde wolde fayne that he dede were</l>
+               <l>and he wyſt nat on what manere</l>
+               <l>Howe he myght hym ſhent</l>
+               <l>A fals letter made the kynge</l>
+               <l>and made a meſſangere it brynge</l>
+               <l>On the ryuer ſyde as they went</l>
+               <l>To torent that was true as ſtele</l>
+               <l>If he loued dyſſonell wele</l>
+               <l>Gete hir a faucon gent</l>
+               <l>Torent the letter began to rede</l>
+               <l>the kynge came nece and lyſtened</l>
+               <l>as thoughe he it neuer had ſene</l>
+               <l>the kynge ſayde what may this be</l>
+               <l>Lorde it is ſent to me</l>
+               <l>For a faucon ſhene</l>
+               <l>Ine wote ſo god me ſpede</l>
+               <l>In what londe that they brede</l>
+               <l>the kynge ſayde as I herde ſayne</l>
+               <l>In the foreſt of Maudelayne</l>
+            </div>
+         </div>
+         <div type="elegy">
+            <pb facs="tcp:24036:3" rendition="simple:additions"/>
+            <!-- PDF PAGE 122 -->
+            <head>
+               <figure>
+                  <figDesc>blazon or coat of arms</figDesc>
+               </figure>
+               <figure>
+                  <figDesc>recumbent crowned king</figDesc>
+               </figure>
+               <figure>
+                  <head>
+                     <abbr>IHS</abbr>
+                  </head>
+                  <figDesc>Tudor rose</figDesc>
+               </figure>
+            </head>
+            <lg>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>rlde all wrapped in wretchydnes</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>y pompes ſo gay &amp; gloryous</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>eaſures and all thy ryches</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>y be but tranſytoryous</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>to moche pyteous</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>e that eche man whylom dred</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>y naturall lyne and cours</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>s alas lyeth dede</l>
+            </lg>
+            <lg>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> ryall a kynge</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>aner the prudent ſalamon</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>ſſe and in euery thynge</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>o cryſten regyon</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> not longe agone</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> his name by fame ſprde</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>te nowe deſtytute alone</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>las alas lyeth dede</l>
+            </lg>
+            <lg>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ater we wretchyd creatures</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>es and tryumphaunt maieſtye</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> paſtymes and pleaſures</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>thouten remedye</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> wyll the myſerable bodye</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>n heuy lede</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>de but vanyte and all vanytye</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>h alas alas lyeth dede</l>
+            </lg>
+            <lg>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>is ſubgecies &amp; make lamentacyon.</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>o noble a gouernoure</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>ayers make we exclamacyon</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>e to his ſupernall toure</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>dly roſe floure</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>ally all aboute ſpred</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>ated where is his power</l>
+               <l>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>las alas lyeth dede</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:24036:3" rendition="simple:additions"/>
+               <!-- PDF PAGE 122 -->
+               <l>Of this mooſt cryſten kynge in vs it lyeth not</l>
+               <l>His tyme paſſed honour ſuffycyent to prayſe</l>
+               <l>But yet though that / that thyng envalue we may not</l>
+               <l>Our prayers of ſuertye he ſhall haue alwayes</l>
+               <l>And though that atropoſe hathe ended his dayes</l>
+               <l>His name and fame ſhall euer be dred</l>
+               <l>As fer as phebus ſpredes his golden rayes</l>
+               <l>Though henry the ſeuenth alas alas lyeth dede</l>
+            </lg>
+            <lg>
+               <l>But nowe what remedye he is vncouerable</l>
+               <l>Touchyd by the handes of god that is mooſt Iuſt</l>
+               <l>But yet agayne a cauſe mooſt confortable</l>
+               <l>We haue / wherin / of ryght reioys we muſt</l>
+               <l>His ſone on lyue in beaute force and luſt</l>
+               <l>In honour lykely traianus to ſhede</l>
+               <l>Wherfore in hym put we our hope and truſt</l>
+               <l>Syth henry his fader alas alas lyeth dede.</l>
+            </lg>
+            <lg>
+               <l>And nowe for concluſyon aboute his herſe</l>
+               <l>Let this be grauyd for endeles memorye</l>
+               <l>With ſorowfull tunes of Theſyphenes verſe</l>
+               <l>Here lyeth the puyſſaunt and myghty henry</l>
+               <l>Hector in batayll / Vlyxes in polecy</l>
+               <l>Salamon in wyſdome the noble roſe rede</l>
+               <l>Creſes in rycheſſe Iulyus in glory</l>
+               <l>Henry the ſeuenth ingraued here lyeth dede</l>
+            </lg>
+            <p>
+               <add>In? The Author of this Elegy? Perh. Skelton, <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> not in his works.</add>
+            </p>
+            <p>
+               <add>This ½ ſheet, Fol. on one dise &amp; 4<hi rend="sup">to</hi> on the other, must have been a Proof at the <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </add>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
